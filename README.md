@@ -1,11 +1,11 @@
-About nautilus-sampler
-======================
+About nautilus-sampler-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nautilus-sampler-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/johannesulf/nautilus
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nautilus-sampler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Neural Network-Boosted Importance Sampling for Bayesian Statistics
 
