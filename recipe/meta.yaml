@@ -1,13 +1,13 @@
 {% set name = "nautilus-sampler" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nautilus-sampler-{{ version }}.tar.gz
-  sha256: 2fd57ae663a72b024d19f62a30c205abb038663098b92d852151c7cf9d5508dd
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: cbe1c0f262355dfcbaf306f64fb8a6ee43e2ba3effb4058b27305fe855ff5d01
 
 build:
   noarch: python
