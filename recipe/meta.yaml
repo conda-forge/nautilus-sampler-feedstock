@@ -1,5 +1,5 @@
 {% set name = "nautilus-sampler" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: cbe1c0f262355dfcbaf306f64fb8a6ee43e2ba3effb4058b27305fe855ff5d01
+  sha256: 321374bcaf1f7ab2ebe98e1a8cbaee190da62453e34feafa8960cca5703650fb
 
 build:
   noarch: python
