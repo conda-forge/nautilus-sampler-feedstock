@@ -1,5 +1,5 @@
 {% set name = "nautilus-sampler" %}
-{% set version = "0.7.4" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2b79b7145617930ca77c0b6d5cbe0aeac40bac56bfe921f3647c062dcf7a94b7
+  sha256: bd4d8cf33f5af48893f53b71f4bff52943977b770eb8205df010a4a62c5de713
 
 build:
   noarch: python
@@ -24,7 +24,6 @@ requirements:
     - numpy
     - scipy
     - scikit-learn
-    - tqdm
     - threadpoolctl
 
 test:
