@@ -24,7 +24,6 @@ requirements:
     - numpy
     - scipy
     - scikit-learn
-    - tqdm
     - threadpoolctl
 
 test:
